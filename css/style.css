@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+.wrap{width:960px}
+.clear{clear:both; position:inherit;}
+
+header{height:150px;}
+.logo{
+    height:100px;
+    overflow:hidden;
+    float:left;
+}
+.logo>a>img{
+    width:250px;
+    margin-top:-50px;
+}
+
+nav{
+    float:right;
+    margin-top:30px;
+    padding:10px;
+}
+.nav{
+    width:600px;
+    height:20px;
+}
+.nav>li{
+    float:left;
+    width:200px;
+    text-align:center;
+    position:relative;    
+}
+.nav>li:hover{
+    background-color:#4298CC;
+    color:#FFF;
+}
+
+.submenu{
+    background-color:rgba(255,255,255,0.8);
+    width:100%;
+    margin-top:5px;
+    display:none;
+    position:absolute;
+    z-index:1;
+}
+.submenu>li{
+    color:#000;
+    padding:5px 0;    
+}
+.submenu>li:hover{
+    background-color:#00CCFF;
+    color: inherit;
+}
+
+#imgslide{
+    margin-top: 10px;
+    height: 400px;
+}
+.imgs{
+    overflow: hidden;
+    height: 400px;
+    width: 960px;
+    background-color: #000;
+    position: relative;
+}
+.imgs>img{
+    width: 100%;
+    position: absolute;
+    transition: all 2s;
+}
+
+#contents{height:500px;}
+.notice{
+    float:left;
+    width:480px;
+    margin-top:20px;
+}
+.notice h2{text-align:center}
+.table{
+    border-collapse: collapse;
+    font-size:0.9em;
+    color:#666666;
+}
+.table tr>th{padding:5px 0}
+.table tr>td{padding: 5px}
+.table tr:nth-child(2n){background-color:rgba(153,153,153,0.5)}
+
+.partner{
+    float:right;
+    width:480px;
+    margin-top:20px;
+}
+.partner h2{text-align:center;}
+.partner img{margin-top: 24px;}
+
+.icon{margin-top:20px;}
+.icons{text-align:center}
+.imgbtn{
+    width:160px;
+    margin:0 20px;
+    display:inline-block;
+}
+.imgbtn button{
+    color: #FFF;
+    background-color:#999999;
+    border:none;
+    border-radius:10px;
+    font-size:20px;
+}
+button{cursor:pointer}
+.imgbtn>button:hover{background-color:#900}
+
+footer{
+    height:150px;
+    background-color:#4298CC;
+    width:960px;
+    color:#FFFF;
+    overflow: hidden;
+}
+
+footer ul{
+    width:50%;
+    float:left;
+}
+footer ul>li{
+    float:left;
+    margin-left:20px;
+    margin-top:30px;
+}
+footer p{
+    width:50%;
+    font-size:12px;
+    float:right;
+    color:#ffffff;
+    margin-top:30px;
+}
